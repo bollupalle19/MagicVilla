@@ -58,7 +58,7 @@ namespace MagicVilla_villa_API.Controllers
             //if (!ModelState.IsValid)  // Validations Based on Model State
             //{
             //    return BadRequest(ModelState);
-            //}YXONM0WMPIF
+            //}
             if(_applicationsDBContext.villas.FirstOrDefault(u=> u.name.ToLower() == villaDto.name.ToLower()) != null)
             {
                 ModelState.AddModelError("NameValidation", "Name already exited");
