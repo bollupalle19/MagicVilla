@@ -9,7 +9,7 @@ namespace MagicVilla_villa_API.Models.DTO
         [Required]
         [StringLength(100)]
         [MaxLength(30)]
-        [DisplayName("Name add")]
+        [DisplayName("Name Required ")]
         public string name { get; set; }
         public string detalis { get; set; }
         public double rate { get; set; }
